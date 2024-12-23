@@ -1,0 +1,79 @@
+/* Jai Shree Ram */
+
+@font-face {
+    font-family: "machinaLight";
+    src: url(../font/NeueMachina-Light_gwWCZxVuQl.ttf);
+}
+
+@font-face {
+    font-family: "machinaRegular";
+    src: url(../font/NeueMachina-Regular_DQCmjH1st.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "machinaRegular";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+ .dropBoxShadow {
+    box-shadow: 1px 5px 5px #000;
+}
+
+.dropTextShadow {
+    text-shadow: 1px 4px 5px #000;
+}
+
+
+*::selection{
+    background: rgba(255 , 255 , 255 , .2);
+}
+
+
+.avatarContainer{
+    background: conic-gradient(
+        from 0deg,
+        #ff0000,
+        #ff8800,
+        #ffff00,
+        #00ff00,
+        #00ffff,
+        #0000ff,
+        #ff00ff,
+        #ff0000
+    );
+    animation: rgb-rotate 3s linear infinite;
+}
+
+@keyframes rgb-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ig{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    transition: all 0.3s ease;
+}
+
+
+.volumeBtn{
+    box-shadow: 0 0 10px #ccc;
+}
+
+.yes{
+    box-shadow: 0 0 40px #11ce92;
+}
+
+.no{
+    box-shadow: 0 0 40px #ff4444;
+}
