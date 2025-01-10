@@ -10,10 +10,11 @@ function linksHandler() {
         "discord": "https://discordapp.com/users/ved4782/",
         "ig": "https://instagram.com/divyanshu_nikhade",
         "linkedin": "https://www.linkedin.com/in/divyanshu-nikhade-a887b5331/",
-        "github": "https://github.com/ved7482"
+        "github": "https://github.com/ved7482",
+        "twitter": "https://x.com/div_nikhade"
     };
 
-    ["discord", "ig", "linkedin", "github"].forEach(function(val , idx) {
+    ["discord", "ig", "linkedin", "github", "twitter"].forEach(function(val , idx) {
         document.querySelector(`.${val}`).addEventListener("click", function() {
             window.open(links[val], '_blank');
         });
