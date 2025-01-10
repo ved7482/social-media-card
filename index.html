@@ -1,0 +1,78 @@
+<!-- Jai Shree Ram -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Divynashu Nikhade | Profile Card</title>
+</head>
+<body>
+    
+    <div class="main relative text-white w-full h-screen overflow-hidden bg-[#111] flex justify-center items-center flex-col">
+        <div class="overlay absolute w-full h-screen overflow-hidden bg-[rgba(0,0,0,.5)] z-[10]" style="filter: blur(200px);"></div>
+        <div class="dialog dropTextShadow absolute z-[9999] flex flex-col text-lg sm:text-xl md:text-2xl items-center justify-center text-center rounded-2xl p-4 sm:p-4 md:p-5 w-[85%] sm:w-[60%] md:w-[30%] bg-[black]">
+            Want to listen the Background Music?
+            <div class="dialogBtn flex px-2 sm:px-2 py-5 sm:py-6 md:py-8 gap-3 relative w-full">
+                <div class="yes dropTextShadow cursor-pointer tracking-tighter w-1/2 bg-emerald-600 rounded-xl text-xl sm:text-xl md:text-2xl py-4 sm:py-3">Yes 😊</div>
+                <div class="no dropTextShadow cursor-pointer tracking-tighter w-1/2 bg-red-600 rounded-xl text-xl sm:text-xl md:text-2xl py-4 sm:py-3">No 😓</div>
+            </div>
+        </div>
+        
+        <div class="absolute w-full h-screen">
+            <video class="w-full h-full object-cover" src="./assets/img/my-comfort-zone.mp4" loop muted autoplay></video>
+        </div>
+        <div class="card overflow-hidden relative bg-[rgba(20,20,20,0.4)] backdrop-blur-lg w-[90%] sm:w-[80%] md:w-[550px] h-auto min-h-[500px] sm:h-[55vh] rounded-2xl flex-col border-2 border-[#00ffff] shadow-[inset_-10px_-10px_20px_rgba(255,255,255,0.05),inset_10px_10px_20px_rgba(0,0,0,0.5),0_0_10px_#00ffff] hover:shadow-[inset_-15px_-15px_25px_rgba(255,255,255,0.07),inset_15px_15px_25px_rgba(0,0,0,0.6),0_0_15px_#00ffff] transition-all duration-300 dropBoxShadow my-8 sm:my-0">
+            <div class="banner relative w-full h-[120px] sm:h-[140px] md:h-[160px] bg-[url('https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fG1hdGglMjBhbmQlMjB0ZWNobm9sb2d5JTIwYmFja2dyb3VuZHN8ZW58MHx8MHx8fDA%3D')] bg-cover bg-center">
+                <div class="avatarContainerPack w-[100px] sm:w-[120px] md:w-[135px] flex items-center justify-center h-[100px] sm:h-[120px] md:h-[135px] absolute -bottom-1/3 left-[20px] rounded-full overflow-hidden dropBoxShadow">
+                    <div class="avatarContainer absolute w-full h-full rounded-full"></div>
+                    <div class="avatar relative top-[1px] w-[95px] sm:w-[115px] md:w-[130px] h-[95px] sm:h-[115px] md:h-[130px] bg-[url('https://www.pokemon.com/static-assets/content-assets/cms2/img/watch-pokemon-tv/seasons/season17/season17_ep01_ss02.jpg')] bg-cover bg-top rounded-full">
+                    </div>
+                </div>
+                <div class="status absolute top-[118%] left-[23%] w-[18px] sm:w-[20px] md:w-[23px] h-[18px] sm:h-[20px] md:h-[23px] bg-emerald-500 rounded-full dropBoxShadow"></div>
+            </div>
+            <div class="content mt-[8vh] w-full px-3 sm:px-4 md:px-5 relative flex flex-col">
+                <div class="name text-2xl sm:text-3xl md:text-4xl font-bolder tracking-tighter dropTextShadow">Divyanshu Nikhade.</div>
+                <div class="techStack flex flex-wrap items-center gap-2 mt-[1vh]">
+                    <p class="dropTextShadow">Tech Stack: </p>
+                    <div class="tSBox px-2 sm:px-3 py-[1.5px] relative rounded-lg text-[#ccc] font-bold tracking-wide bg-[#C43D1B] dropBoxShadow">
+                        <p class="w-full h-full flex items-center justify-center dropTextShadow text-sm sm:text-base">HTML 5</p>
+                    </div>
+                    <div class="tSBox px-2 sm:px-3 py-[1.5px] relative rounded-lg text-white font-bold tracking-wide bg-[#4169e1] dropBoxShadow">
+                        <p class="w-full h-full flex items-center justify-center dropTextShadow text-sm sm:text-base">CSS 5</p>
+                    </div>
+                    <div class="tSBox px-2 sm:px-3 py-[1.5px] relative rounded-lg text-[#111] font-bold tracking-wide bg-[#f7df1e] dropBoxShadow">
+                        <p class="w-full h-full flex items-center justify-center text-sm sm:text-base">Javascript</p>
+                    </div>
+                </div>
+                <div class="extra mt-[3vh] text-base sm:text-lg md:text-xl font-bold dropTextShadow opacity-[.7]">✅ Exploring Beauty of Maths through Code.</div>
+                <div class="links flex flex-nowrap justify-center items-center gap-2 sm:gap-4 md:gap-5 mt-[2vh] mb-4 sm:mb-0 px-2">
+                    <div class="github min-w-[60px] w-[60px] sm:w-[80px] md:w-[90px] h-[60px] sm:h-[80px] md:h-[90px] p-3 sm:p-5 rounded-full bg-[#0D1117] transition transition-duration-500 hover:bg-[#1a2027] cursor-pointer flex items-center justify-center dropBoxShadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </div>
+                    <div class="linkedin min-w-[60px] w-[60px] sm:w-[80px] md:w-[90px] h-[60px] sm:h-[80px] md:h-[90px] p-3 sm:p-5 rounded-full bg-[#0A66C2] transition transition-duration-500 hover:bg-[#0d77e4] cursor-pointer flex items-center justify-center dropBoxShadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </div>
+                    <div class="ig min-w-[60px] w-[60px] sm:w-[80px] md:w-[90px] h-[60px] sm:h-[80px] md:h-[90px] p-3 sm:p-5 rounded-full bg-[#E4405F] transition-colors duration-300 hover:bg-[#e65d77] cursor-pointer flex items-center justify-center dropBoxShadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(255,255,255,1)"><path d="M12.001 9C10.3436 9 9.00098 10.3431 9.00098 12C9.00098 13.6573 10.3441 15 12.001 15C13.6583 15 15.001 13.6569 15.001 12C15.001 10.3427 13.6579 9 12.001 9ZM12.001 7C14.7614 7 17.001 9.2371 17.001 12C17.001 14.7605 14.7639 17 12.001 17C9.24051 17 7.00098 14.7629 7.00098 12C7.00098 9.23953 9.23808 7 12.001 7ZM18.501 6.74915C18.501 7.43926 17.9402 7.99917 17.251 7.99917C16.5609 7.99917 16.001 7.4384 16.001 6.74915C16.001 6.0599 16.5617 5.5 17.251 5.5C17.9393 5.49913 18.501 6.0599 18.501 6.74915ZM12.001 4C9.5265 4 9.12318 4.00655 7.97227 4.0578C7.18815 4.09461 6.66253 4.20007 6.17416 4.38967C5.74016 4.55799 5.42709 4.75898 5.09352 5.09255C4.75867 5.4274 4.55804 5.73963 4.3904 6.17383C4.20036 6.66332 4.09493 7.18811 4.05878 7.97115C4.00703 9.0752 4.00098 9.46105 4.00098 12C4.00098 14.4745 4.00753 14.8778 4.05877 16.0286C4.0956 16.8124 4.2012 17.3388 4.39034 17.826C4.5591 18.2606 4.7605 18.5744 5.09246 18.9064C5.42863 19.2421 5.74179 19.4434 6.17187 19.6094C6.66619 19.8005 7.19148 19.9061 7.97212 19.9422C9.07618 19.9939 9.46203 20 12.001 20C14.4755 20 14.8788 19.9934 16.0296 19.9422C16.8117 19.9055 17.3385 19.7996 17.827 19.6106C18.2604 19.4423 18.5752 19.2402 18.9074 18.9085C19.2436 18.5718 19.4445 18.2594 19.6107 17.8283C19.8013 17.3358 19.9071 16.8098 19.9432 16.0289C19.9949 14.9248 20.001 14.5389 20.001 12C20.001 9.52552 19.9944 9.12221 19.9432 7.97137C19.9064 7.18906 19.8005 6.66149 19.6113 6.17318C19.4434 5.74038 19.2417 5.42635 18.9084 5.09255C18.573 4.75715 18.2616 4.55693 17.8271 4.38942C17.338 4.19954 16.8124 4.09396 16.0298 4.05781C14.9258 4.00605 14.5399 4 12.001 4ZM12.001 2C14.7176 2 15.0568 2.01 16.1235 2.06C17.1876 2.10917 17.9135 2.2775 18.551 2.525C19.2101 2.77917 19.7668 3.1225 20.3226 3.67833C20.8776 4.23417 21.221 4.7925 21.476 5.45C21.7226 6.08667 21.891 6.81333 21.941 7.8775C21.9885 8.94417 22.001 9.28333 22.001 12C22.001 14.7167 21.991 15.0558 21.941 16.1225C21.8918 17.1867 21.7226 17.9125 21.476 18.55C21.2218 19.2092 20.8776 19.7658 20.3226 20.3217C19.7668 20.8767 19.2076 21.22 18.551 21.475C17.9135 21.7217 17.1876 21.89 16.1235 21.94C15.0568 21.9875 14.7176 22 12.001 22C9.28431 22 8.94514 21.99 7.87848 21.94C6.81431 21.8908 6.08931 21.7217 5.45098 21.475C4.79264 21.2208 4.23514 20.8767 3.67931 20.3217C3.12348 19.7658 2.78098 19.2067 2.52598 18.55C2.27848 17.9125 2.11098 17.1867 2.06098 16.1225C2.01348 15.0558 2.00098 14.7167 2.00098 12C2.00098 9.28333 2.01098 8.94417 2.06098 7.8775C2.11014 6.8125 2.27848 6.0875 2.52598 5.45C2.78014 4.79167 3.12348 4.23417 3.67931 3.67833C4.23514 3.1225 4.79348 2.78 5.45098 2.525C6.08848 2.2775 6.81348 2.11 7.87848 2.06C8.94514 2.0125 9.28431 2 12.001 2Z"></path></svg>
+                    </div>
+                    <div class="discord min-w-[60px] w-[60px] sm:w-[80px] md:w-[90px] h-[60px] sm:h-[80px] md:h-[90px] p-3 sm:p-5 rounded-full bg-[#5865F2] transition transition-duration-500 hover:bg-[#6b76f3] cursor-pointer flex items-center justify-center dropBoxShadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(250,250,250,1)"><path d="M19.3034 5.33716C17.9344 4.71103 16.4805 4.2547 14.9629 4C14.7719 4.32899 14.5596 4.77471 14.411 5.12492C12.7969 4.89144 11.1944 4.89144 9.60255 5.12492C9.45397 4.77471 9.2311 4.32899 9.05068 4C7.52251 4.2547 6.06861 4.71103 4.70915 5.33716C1.96053 9.39111 1.21766 13.3495 1.5891 17.2549C3.41443 18.5815 5.17612 19.388 6.90701 19.9187C7.33151 19.3456 7.71356 18.73 8.04255 18.0827C7.41641 17.8492 6.82211 17.5627 6.24904 17.2231C6.39762 17.117 6.5462 17.0003 6.68416 16.8835C10.1438 18.4648 13.8911 18.4648 17.3082 16.8835C17.4568 17.0003 17.5948 17.117 17.7434 17.2231C17.1703 17.5627 16.576 17.8492 15.9499 18.0827C16.2789 18.73 16.6609 19.3456 17.0854 19.9187C18.8152 19.388 20.5875 18.5815 22.4033 17.2549C22.8596 12.7341 21.6806 8.80747 19.3034 5.33716ZM8.5201 14.8459C7.48007 14.8459 6.63107 13.9014 6.63107 12.7447C6.63107 11.5879 7.45884 10.6434 8.5201 10.6434C9.57071 10.6434 10.4303 11.5879 10.4091 12.7447C10.4091 13.9014 9.57071 14.8459 8.5201 14.8459ZM15.4936 14.8459C14.4535 14.8459 13.6034 13.9014 13.6034 12.7447C13.6034 11.5879 14.4323 10.6434 15.4936 10.6434C16.5442 10.6434 17.4038 11.5879 17.3825 12.7447C17.3825 13.9014 16.5548 14.8459 15.4936 14.8459Z"></path></svg>
+                    </div>
+                    <!-- <div class="twitter min-w-[60px] w-[60px] sm:w-[80px] md:w-[90px] h-[60px] sm:h-[80px] md:h-[90px] p-3 sm:p-5 rounded-full bg-[#000000] transition transition-duration-500 hover:bg-[#1a1a1a] cursor-pointer flex items-center justify-center dropBoxShadow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 50 50" fill="rgba(250,250,250,1)"><path d="M39.2,0h7.6L30.2,19.1L49.8,45H34.4l-12-15.7L8.6,45H1l17.8-20.4L0,0h15.8l10.9,14.4L39.2,0z M36.5,40.4h4.2L13.5,4.3H8.9L36.5,40.4z"></path></svg>
+                    </div>    -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="volumeBtn cursor-pointer w-[30px] sm:w-[32px] md:w-[35px] h-[30px] sm:h-[32px] md:h-[35px] rounded-full bg-[rgba(255,255,255,.2)] p-[6px] sm:p-[7px] flex items-center justify-center text-center absolute bottom-4 sm:bottom-5 md:bottom-6 right-4 sm:right-5 md:right-6">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff"><path d="M2 16.0001H5.88889L11.1834 20.3319C11.2727 20.405 11.3846 20.4449 11.5 20.4449C11.7761 20.4449 12 20.2211 12 19.9449V4.05519C12 3.93977 11.9601 3.8279 11.887 3.73857C11.7121 3.52485 11.3971 3.49335 11.1834 3.66821L5.88889 8.00007H2C1.44772 8.00007 1 8.44778 1 9.00007V15.0001C1 15.5524 1.44772 16.0001 2 16.0001ZM23 12C23 15.292 21.5539 18.2463 19.2622 20.2622L17.8445 18.8444C19.7758 17.1937 21 14.7398 21 12C21 9.26016 19.7758 6.80629 17.8445 5.15557L19.2622 3.73779C21.5539 5.75368 23 8.70795 23 12ZM18 12C18 10.0883 17.106 8.38548 15.7133 7.28673L14.2842 8.71584C15.3213 9.43855 16 10.64 16 12C16 13.36 15.3213 14.5614 14.2842 15.2841L15.7133 16.7132C17.106 15.6145 18 13.9116 18 12Z"></path></svg>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
