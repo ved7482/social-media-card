@@ -8,9 +8,9 @@ function select(elem) {
 function linksHandler() {
     const links = {
         "discord": "https://discordapp.com/users/ved4782/",
-        "ig": "https://instagram.com/divyanshu_nikhade",
+        "ig": "https://instagram.com/divyanshu_7482/",
         "linkedin": "https://www.linkedin.com/in/divyanshu-nikhade-a887b5331/",
-        "github": "https://github.com/ved7482"
+        "github": "https://github.com/ved7482/"
     };
 
     ["discord", "ig", "linkedin", "github"].forEach(function(val , idx) {
